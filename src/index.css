@@ -1,0 +1,83 @@
+body {
+  background: #223;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.spinner-1 {
+  margin: 100px;
+  width: 300px;
+  height: 300px;
+  background-image: conic-gradient(red 60deg, orange 60deg 120deg, yellow 120deg 180deg, green 180deg 240deg, blue 240deg 300deg, purple 300deg 360deg);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotation 0.8s infinite ;
+}
+
+.spinner-1 .hole{
+  background: #223;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg); }
+  to {transform: rotate(360deg); }
+  
+}
+
+.spinner-2 {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.spinner-2 .stick{
+  height: 250px;
+  width: 50px;
+  background-color: paleturquoise;
+  border-radius: 10%;
+}
+
+.stick-1{
+  animation: wave 1s infinite alternate 0.5s;
+}
+
+.stick-2{
+  animation: wave 1s infinite alternate 0.6s;
+}
+
+.stick-3{
+  animation: wave 1s infinite alternate 0.7s;
+}
+
+.stick-4{
+  animation: wave 1s infinite alternate 0.8s;
+}
+
+@keyframes wave {
+  from {transform: rotateX(3.142rad)};
+  to {transform: rotateX(3.142rad);}
+}
+
+.spinner-3 {
+  margin-top: 150px;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 25px solid black;
+  background: transparent;
+  border-top-color: pink;
+  border-bottom-color: pink;
+  border-left-color:black;
+  animation: rotation 0.9s infinite alternate ;
+
+}
+
+
