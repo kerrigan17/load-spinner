@@ -1,5 +1,5 @@
 body {
-  background: #223;
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 80px;
@@ -18,7 +18,7 @@ body {
 }
 
 .spinner-1 .hole{
-  background: #223;
+  background: white;
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -41,7 +41,7 @@ body {
 .spinner-2 .stick{
   height: 250px;
   width: 50px;
-  background-color: paleturquoise;
+  background-color: #62CDFF ;
   border-radius: 10%;
 }
 
