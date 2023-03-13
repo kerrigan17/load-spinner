@@ -71,11 +71,11 @@ body {
   width:200px;
   height: 200px;
   border-radius: 50%;
-  border: 25px solid black;
+  border: 25px solid white;
   background: transparent;
   border-top-color: pink;
   border-bottom-color: pink;
-  border-left-color:black;
+  border-left-color:white;
   animation: rotation 0.9s infinite alternate ;
 
 }
